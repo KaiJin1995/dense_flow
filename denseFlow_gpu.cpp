@@ -2,10 +2,16 @@
 #include "opencv2/imgproc/imgproc.hpp"
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/gpu/gpu.hpp"
+<<<<<<< HEAD
 #include <cstring>
 #include <stdio.h>
 #include <iostream>
 #include <dirent.h>
+=======
+
+#include <stdio.h>
+#include <iostream>
+>>>>>>> 36c4ef077e16d530b89968b5d851fa776f024fef
 using namespace cv;
 using namespace cv::gpu;
 
@@ -36,6 +42,7 @@ static void drawOptFlowMap(const Mat& flow, Mat& cflowmap, int step,double, cons
 
 int main(int argc, char** argv){
 	// IO operation
+<<<<<<< HEAD
 struct dirent *direntp;
     DIR *dirp=opendir("/home/kjin/ActionRecognition/dense_flow-master/test/");
 
@@ -53,6 +60,14 @@ struct dirent *direntp;
 			"{ x  | xFlowFile    | flow_x | filename of flow x component }"
 			"{ y  | yFlowFile    | flow_y | filename of flow x component }"
 			"{ i  | imgFile      | image | filename of flow image}"
+=======
+	const char* keys =
+		{
+			"{ f  | vidFile      | ex2.avi | filename of video }"
+			"{ x  | xFlowFile    | flow_x | filename of flow x component }"
+			"{ y  | yFlowFile    | flow_y | filename of flow x component }"
+			"{ i  | imgFile      | flow_i | filename of flow image}"
+>>>>>>> 36c4ef077e16d530b89968b5d851fa776f024fef
 			"{ b  | bound | 15 | specify the maximum of optical flow}"
 			"{ t  | type | 0 | specify the optical flow algorithm }"
 			"{ d  | device_id    | 0  | set gpu id}"
@@ -164,4 +179,7 @@ struct dirent *direntp;
 	}
 	return 0;
 }
+<<<<<<< HEAD
 }
+=======
+>>>>>>> 36c4ef077e16d530b89968b5d851fa776f024fef

@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 这个文件主要用来对yj xiong 的论文“towards good practices for very deep two-stream convnets"中的image 和　optical flow图片提取进行修改。
 修改后的代码可以跟其源码中的数据输入匹配，完成训练。
 
+=======
+>>>>>>> 36c4ef077e16d530b89968b5d851fa776f024fef
 We should use test.cpp
 
 cd build
@@ -9,4 +12,8 @@ make
 ./denseflow
 
 
+<<<<<<< HEAD
 then  you can get the image and the flow
+=======
+then  you can get the image and the flow
+>>>>>>> 36c4ef077e16d530b89968b5d851fa776f024fef
