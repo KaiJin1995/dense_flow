@@ -11,11 +11,9 @@ int main(int argc, char** argv){
 	// IO operation
 	const char* keys =
 		{
-<<<<<<< HEAD
+
 			"{ f  | vidFile      | v_ApplyEyeMakeup_g01_c01.avi| filename of video }"
-=======
-			"{ f  | vidFile      | ex2.avi | filename of video }"
->>>>>>> 36c4ef077e16d530b89968b5d851fa776f024fef
+
 			"{ i  | imgFile      | flow_i | filename of flow image}"
 		};
 
