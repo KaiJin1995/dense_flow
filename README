@@ -15,3 +15,6 @@ make
 
 then  you can get the image and the flow
 
+add:   在test.cpp中，需要注意光流算法的选取，type选取为0时，光流算法是farn光流法，当type选取为1时，为tvl1光流法，当type选取2时，为brox光流法。
+经过测试，发现使用tvl1光流法要优于farn光流法，具体区别参考博客http://blog.csdn.net/small_arm/article/details/78283205    
+
